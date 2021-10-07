@@ -14,7 +14,7 @@ router.get('/about', (req, res) => {
 });
 
 //Get projects
-router.get('/projects/:id', function(req, res, next) {
+router.get('/:id', function(req, res, next) {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId);
 
@@ -22,8 +22,8 @@ router.get('/projects/:id', function(req, res, next) {
         res.render('project', { projects } );
     } else {
         const err = new Error();
-        err.message = "Yikes, looks like there is something wrong with the server."
-        err.status = 500;
+        err.status = 404;
+        err.message = "Uh-oh, looks like the project you were looking for does not exist!"
         next(err);
     }
 });
