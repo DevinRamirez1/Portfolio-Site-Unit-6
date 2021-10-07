@@ -19,7 +19,7 @@ router.get('/projects/id:', (req, res, next) => {
     const project = projects.find( ({ id }) => id === +projectId);
 
     if (project) {
-        res.render('project', { project } )
+        res.render('project', { projects, id: projectId } )
     } else {
         const err = new Error();
         err.message = "Yikes, looks like there is something wrong with the server."
