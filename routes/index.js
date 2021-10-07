@@ -1,6 +1,6 @@
 //Required sources
 const express = require('express');
-const { data } = require('data.json');
+const { projects } = require('data.json');
 const router = express.Router();
 
 // GET home page
@@ -16,4 +16,14 @@ router.get('/about', (req, res) => {
 //Get projects
 router.get('/projects/id:', (req, res, next) => {
     const projectId = req.params.id;
+    const project = projects.find( ({ id }) => id === +projectId);
+
+    if (project) {
+        res.render('project', { project} )
+    } else {
+        const err = new Error();
+        err.message = "Yikes, looks like there is something wrong with the server."
+        err.status = 500;
+        next(err);
+    }
 });
