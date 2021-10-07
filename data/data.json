@@ -6,7 +6,11 @@
             "description": "Randomly generate quotes.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/Random-Quote-Generator/",
-            "github_link": "https://github.com/DevinRamirez1/Random-Quote-Generator"
+            "github_link": "https://github.com/DevinRamirez1/Random-Quote-Generator",
+            "img_urls": [
+                "/images/RandomQuoteImgOne.png",
+                "/images/RandomQuoteImgTwo.png"
+            ]
         },
         {
             "id": 1,
@@ -14,7 +18,11 @@
             "description": "Display skills to add pagination and filtering to a website.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/Data-Pagination-Filtering-Project/",
-            "github_link": "https://github.com/DevinRamirez1/Data-Pagination-Filtering-Project"
+            "github_link": "https://github.com/DevinRamirez1/Data-Pagination-Filtering-Project",
+            "img_urls": [
+                "/images/DataPagImgOne.png",
+                "/images/DataPagImgTwo.png"
+            ]
         },
         {
             "id": 2,
@@ -22,7 +30,11 @@
             "description": "An application that uses API request to create an employee list",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/Public-API-Requests/",
-            "github_link": "https://github.com/DevinRamirez1/Public-API-Requests"
+            "github_link": "https://github.com/DevinRamirez1/Public-API-Requests",
+            "img_urls": [
+                "/images/RandomQuoteImgOne.png",
+                "/images/RandomQuoteImgTwo.png"
+            ]
         },
         {
             "id": 3,
@@ -30,7 +42,11 @@
             "description": "Display skills to create a form that is interactive and functional.",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/Interactive-Form/",
-            "github_link": "https://github.com/DevinRamirez1/Interactive-Form"
+            "github_link": "https://github.com/DevinRamirez1/Interactive-Form",
+            "img_urls": [
+                "/images/InteractiveFormImgOne.png",
+                "/images/InteractiveFormImgTwo.png"
+            ]
         },
         {
             "id": 4,
@@ -38,7 +54,11 @@
             "description": "A quote guessing game",
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/OOP-Game-Show/",
-            "github_link": "https://github.com/DevinRamirez1/OOP-Game-Show"
+            "github_link": "https://github.com/DevinRamirez1/OOP-Game-Show",
+            "img_urls": [
+                "/images/GameShowImgOne.png",
+                "/images/GameShowImgTwo.png"
+            ]
         }
     ]
 }
