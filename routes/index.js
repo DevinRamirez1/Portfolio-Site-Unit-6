@@ -14,7 +14,7 @@ router.get('/about', (req, res) => {
 });
 
 //Get projects
-router.get('/:id', function(req, res, next) {
+router.get('/project/:id', function(req, res, next) {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId);
 
