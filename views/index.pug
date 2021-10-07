@@ -16,7 +16,7 @@ block content
        each project in projects 
         .cell
           a(href='/project/:id')
-            img.thumbnail(src=`${project.img_urls}`, alt='')
+            img.thumbnail(src=`${project.img_urls}`)
             h5= project.project_name
 
   //- Use the Pug `each` iterator to loop over the projects in your data file  
