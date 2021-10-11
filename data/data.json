@@ -20,7 +20,7 @@
             "live_link": "https://devinramirez1.github.io/Data-Pagination-Filtering-Project/",
             "github_link": "https://github.com/DevinRamirez1/Data-Pagination-Filtering-Project",
             "thumbnail_url": "/static/images/DataPagImgOne.png",
-            "img_urls": [
+            "img_url": [
                 "/static/images/DataPagImgTwo.png"
             ]
         },
@@ -32,7 +32,7 @@
             "live_link": "https://devinramirez1.github.io/Public-API-Requests/",
             "github_link": "https://github.com/DevinRamirez1/Public-API-Requests",
             "thumbnail_url": "/static/images/RandomQuoteImgOne.png",
-            "img_urls": [  
+            "img_url": [  
                 "/static/images/RandomQuoteImgTwo.png"
             ]
         },
@@ -44,7 +44,7 @@
             "live_link": "https://devinramirez1.github.io/Interactive-Form/",
             "github_link": "https://github.com/DevinRamirez1/Interactive-Form",
             "thumbnail_url": "/static/images/InteractiveFormImgOne.png",
-            "img_urls": [   
+            "img_url": [   
                 "/static/images/InteractiveFormImgTwo.png"
             ]
         },
@@ -56,7 +56,7 @@
             "live_link": "https://devinramirez1.github.io/OOP-Game-Show/",
             "github_link": "https://github.com/DevinRamirez1/OOP-Game-Show",
             "thumbnail_url": "/static/images/GameShowImgOne.png",
-            "img_urls": [
+            "img_url": [
                 "/static/images/GameShowImgTwo.png"
             ]
         }
