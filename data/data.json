@@ -9,7 +9,9 @@
             "github_link": "https://github.com/DevinRamirez1/Random-Quote-Generator",
             "thumbnail_url": "/static/images/RandomQuoteImgOne.png",
             "img_url": [
-                "/static/images/RandomQuoteImgTwo.png"
+                "/static/images/RandomQuoteImgOne.png",
+                "/static/images/RandomQuoteImgTwo.png",
+                "/static/images/RandomQuoteImgThree.png"
             ]
         },
         {
@@ -21,7 +23,9 @@
             "github_link": "https://github.com/DevinRamirez1/Data-Pagination-Filtering-Project",
             "thumbnail_url": "/static/images/DataPagImgOne.png",
             "img_url": [
-                "/static/images/DataPagImgTwo.png"
+                "/static/images/DataPagImgOne.png",
+                "/static/images/DataPagImgTwo.png",
+                "/static/images/DataPagImgThree.png"
             ]
         },
         {
@@ -31,9 +35,11 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://devinramirez1.github.io/Public-API-Requests/",
             "github_link": "https://github.com/DevinRamirez1/Public-API-Requests",
-            "thumbnail_url": "/static/images/RandomQuoteImgOne.png",
+            "thumbnail_url": "/static/images/PublicAPIImgOne.png",
             "img_url": [  
-                "/static/images/RandomQuoteImgTwo.png"
+                "/static/images/PublicAPIImgOne.png",
+                "/static/images/PublicAPIImgTwo.png",
+                "/static/images/PublicAPIImgThree.png"
             ]
         },
         {
@@ -45,7 +51,9 @@
             "github_link": "https://github.com/DevinRamirez1/Interactive-Form",
             "thumbnail_url": "/static/images/InteractiveFormImgOne.png",
             "img_url": [   
-                "/static/images/InteractiveFormImgTwo.png"
+                "/static/images/InteractiveFormImgOne.png",
+                "/static/images/InteractiveFormImgTwo.png",
+                "/static/images/InteractiveFormImgThree.png"
             ]
         },
         {
@@ -57,7 +65,10 @@
             "github_link": "https://github.com/DevinRamirez1/OOP-Game-Show",
             "thumbnail_url": "/static/images/GameShowImgOne.png",
             "img_url": [
-                "/static/images/GameShowImgTwo.png"
+                "/static/images/GameShowImgOne.png",
+                "/static/images/GameShowImgTwo.png",
+                "/static/images/GameShowImgThree.png",
+                "/static/images/GameShowImgFour.png"
             ]
         }
     ]
