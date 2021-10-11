@@ -19,7 +19,7 @@ router.get('/project/:id', function(req, res, next) {
     const project = projects.find( ({ id }) => id === +projectId);
 
     if (project) {
-        res.render('project', { projects } );
+        res.render('project', { project } );
     } else {
         const err = new Error();
         err.status = 404;
