@@ -6,4 +6,3 @@ Portfolio Site project
 4. Changed Sidebar Background color to silver
 5. Changed sidebar h5 text color to match wrapper
 6. Changed body background color to match sidebar background color
-7.
