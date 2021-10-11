@@ -26,8 +26,7 @@ block content
 
     .project-img-box.box
 
-      each image in project.img_url.slice(1)
-        img.project-img(src=`${project.img_urls}`, alt=`${project.project_name}`)
+      img.project-img(src=`${project.img_url}`, alt=`${project.project_name}`)
     
     nav.nav
       a(href='/')
