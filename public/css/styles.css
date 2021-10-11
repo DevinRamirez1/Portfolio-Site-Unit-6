@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: rgba(201, 201, 201, 0.938);
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -81,8 +81,8 @@ a {
 .box {
   width: 100%;
   max-width: 1200px;
-  padding: 40px 50px 30px;
-  background: #fefefe;
+  padding: 40px 60px 60px;
+  background: #fefefe7a;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgba(201, 201, 201, 0.938);
 }
 
 .sidebar-info-box {
@@ -159,7 +159,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #6eaab4;
   margin: 0 auto 0.5rem;
 }
 
