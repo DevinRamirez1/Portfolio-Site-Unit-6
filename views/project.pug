@@ -19,16 +19,15 @@ block content
         h6 Technologies
         ul
           each technology in project.technologies
-
-          li= technology
+            li= technology
 
         a.btn-link(href=`${project.live_link}`) Live Demo
         a.btn-link(href=`${project.github_link}`) GitHub Repo
 
     .project-img-box.box
-    
+
       each image in project.img_url.slice(1)
-      img.project-img(src=`${project.img_urls}`, alt=`${project.project_name}`)
+        img.project-img(src=`${project.img_urls}`, alt=`${project.project_name}`)
     
     nav.nav
       a(href='/')
