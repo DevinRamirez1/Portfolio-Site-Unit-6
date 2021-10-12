@@ -20,6 +20,7 @@ app.use('/', routes);
 //404 Handler
 app.use((req, res, next) => {
     res.status(404).render('page-not-found');
+    console.log('Oh no! Looks like page was not found');
 });
 
 //Global error handler
@@ -29,6 +30,7 @@ app.use((err, req, res, next) => {
     } else {
         err.message = err.message || 'Yikes, look like something went wrong with the server!';
         res.status(err.status || 500).render('error', {err});
+        console.log(err.message);
     }
 })
 
