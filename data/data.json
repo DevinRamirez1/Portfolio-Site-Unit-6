@@ -84,6 +84,21 @@
                 "/static/images/GalleryImgTwo.png",
                 "/static/images/GalleryImgThree.png"
             ]
+        },
+        {
+            "id": 6,
+            "project_name": "SQL Library Manager",
+            "description": "A data recording app for a library. Capable of adding and removing books",
+            "technologies": ["HTML", "CSS", "Javascript", "Pug"],
+            "live_link": "https://devinramirez1.github.io/SQL-Library-Manager/",
+            "github_link": "https://github.com/DevinRamirez1/SQL-Library-Manager",
+            "thumbnail_url": "/static/images/LibraryManagerImgOne.png",
+            "img_url": [
+                "/static/images/LibraryManagerImgOne.png",
+                "/static/images/LibraryManagerImgTwo.png",
+                "/static/images/LibraryManagerImgThree.png",
+                "/static/images/LibraryManagerImgFour.png"
+            ]
         }
     ]
 }
