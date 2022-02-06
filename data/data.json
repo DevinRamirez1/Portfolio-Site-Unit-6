@@ -70,6 +70,20 @@
                 "/static/images/GameShowImgThree.png",
                 "/static/images/GameShowImgFour.png"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "A Image searching gallery app",
+            "technologies": ["HTML", "CSS", "Javascript"],
+            "live_link": "https://devinramirez1.github.io/React-Gallery-App/",
+            "github_link": "https://github.com/DevinRamirez1/React-Gallery-App",
+            "thumbnail_url": "/static/images/GalleryImgOne.png",
+            "img_url": [
+                "/static/images/GalleryImgOne.png",
+                "/static/images/GalleryImgTwo.png",
+                "/static/images/GalleryImgThree.png"
+            ]
         }
     ]
 }
