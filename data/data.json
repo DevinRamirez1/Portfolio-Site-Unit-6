@@ -103,16 +103,13 @@
         {
             "id": 7,
             "project_name": "Rest Api",
-            "description": "Currently is the backend portion of a fullstack Rest API for a school",
+            "description": "Currently is the backend portion of a fullstack Rest API for a school. Click Github Link to view code.",
             "technologies": ["Javascript"],
             "live_link": "https://devinramirez1.github.io/Rest-API/",
             "github_link": "https://github.com/DevinRamirez1/Rest-API",
-            "thumbnail_url": "/static/images/LibraryManagerImgOne.png",
+            "thumbnail_url": "/static/images/RestApiImgOne.png",
             "img_url": [
-                "/static/images/LibraryManagerImgOne.png",
-                "/static/images/LibraryManagerImgTwo.png",
-                "/static/images/LibraryManagerImgThree.png",
-                "/static/images/LibraryManagerImgFour.png"
+                "/static/images/postman-RestApiImgOne.png"
             ]
         }
     ]
